@@ -54,7 +54,7 @@ $(function() {
   
     $('#new-form').submit(function(event) {
       event.preventDefault();
-      var textbox = $('.new-todo');
+      var textbox = $('.new-goal');
       var payload = {
         task: {
           title: textbox.val()
